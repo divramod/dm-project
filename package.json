@@ -1,0 +1,26 @@
+{
+  "name": "dm-project",
+  "version": "0.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:divramod/dm-project.git"
+  },
+  "author": "Arvid Petermann <arvidpetermann@gmail.com> (http://blog.divramod.de)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divramod/dm-project/issues"
+  },
+  "homepage": "https://github.com/divramod/dm-project",
+  "bin": {
+    "dmp": "./bin/dm-project"
+  },
+  "dependencies": {
+    "co": "^4.5.4",
+    "colors": "^1.1.2"
+  }
+}
